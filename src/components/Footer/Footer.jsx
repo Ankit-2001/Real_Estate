@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <section className="f-wrapper">
+    <section className="f-wrapper footer">
       <div className="paddings innerWidth flexCenter f-container">
         {/* Left Side */}
         <div className="flexColStart f-left">
@@ -14,15 +14,15 @@ const Footer = () => {
 
         {/* Right Side */}
         <div className="flexColStart f-right">
-            <span className="primaryText">Information</span>
-            <span className="secondaryText">145 Kolkata, WB, India</span>
+          <span className="primaryText">Information</span>
+          <span className="secondaryText">145 Kolkata, WB, India</span>
 
-            <div className="flexCenter f-menu">
-                <span>Property</span>
-                <span>Services</span>
-                <span>Product</span>
-                <span>About Us</span>
-            </div>
+          <div className="flexCenter f-menu">
+            <span>Property</span>
+            <span>Services</span>
+            <span>Product</span>
+            <span>About Us</span>
+          </div>
         </div>
       </div>
       <div className="flexCenter orangeText">Made with ❤️ by Ankit Kumar</div>
